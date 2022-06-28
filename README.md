@@ -1,4 +1,6 @@
 # bkashcheckoutwordpressplugin
+# Md. Emran Ali
+## emran07cse@yahoo.com
 
 === bKash For WooCommerce ===
 Contributors: bkashpayment
@@ -78,16 +80,6 @@ This plugin supports below environments of bKash payment gateway.
          - Can refund a transaction.
          - Can disburse money to bKash customer wallet.
          - Can search a transaction from its merchant wallet.
-   * For Tokenization:
-         - Can make a payment
-         - Can set up bKash payment gateway.
-         - Can manage credentials for bKash payment gateway.
-         - Can set intent of payment modes. (Sale or Authorise)
-         - Can view all transactions - online and offline (using webhook integration).
-         - Can refund a transaction.
-         - Can search a transaction from its merchant wallet.
-         - Can view and delete all agreements from customers.
-
 == Installation ==
 
 This section describes how to install the plugin and get it working.
@@ -134,12 +126,6 @@ To do that navigate to Woo-commerce and click Status Tab. Scroll down and go to 
 there you will find a log file called bKash sandbox log. Copy sandbox results which you required from that log
 and share it through a Microsoft docs file.
 
-
-
-### Change Permalink
-* Important! Change Permalink from WordPress Settings → Reading to Post Name (etc).
-* Align .htaccess file accordingly with the guidance of WordPress on permalink setting page.
-
 ### Webhook configuration process:
 Share webhook URL to bKash team by collecting from WooCommerce settings for bKash payment gateway.
 
@@ -177,21 +163,3 @@ Ans: Yes, we have a detailed manual for this plugin, you can download it from he
 2. Settings page of bKash payment method
 3. User paying with bKash Payment method
 4. Transaction list for admin to check
-
-== Changelog ==
-= 1.0.7 =
-* Escaped Echos
-= 1.0.6 =
-* Adopted recommendation from code scanning tools. also fixed issues raised by WP team.
-= 1.0.5 =
-* Escaped variables, added cancel payment, colored transaction list status.
-= 1.0.4 =
-* Minor bug fix of unwanted message during capturing a non-bKash payment.
-= 1.0.3 =
-* Added Search and Filter functionalities in list tables.
-= 1.0.2 =
-* Wordpress recommended optimisation finalisation
-= 1.0.1 =
-* Wordpress recommended optimisation
-= 1.0.0 =
-* First release with all features
