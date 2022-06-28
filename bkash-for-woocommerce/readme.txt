@@ -1,5 +1,3 @@
-# bkashcheckoutwordpressplugin
-
 === bKash For WooCommerce ===
 Contributors: bkashpayment
 Tags: bKash,bKashPayment,bKashForWooCommerce,online payment,ecommerce,woocommerce
