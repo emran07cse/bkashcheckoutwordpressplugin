@@ -13,16 +13,6 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 bKash for WooCommerce plugin is a WordPress based WooCommerce plugin. bKash merchants can install it as a plugin at their online WordPress store.
-
-== Description ==
-
-bKash Payment Gateway provides range of payment solutions to merchants of the online sphere. This is the official bKash PGW plugin, by installing this plugin you’ll be able to integrate the bKash PGW, into your WooCommerce Webshop. The bKash PGW plugin extends WooCommerce allowing you to take payments directly on your store via bKash’s API. This will only take a few minutes. If the plugin is successfully installed your customers will then be able to check out with bKash payment gateway.
-bKash has different payment option available, by installing this plugin merchant will be able to integrate bKash “Regular Checkout and Tokenized Checkout”.
-Regular Checkout: On the checkout page, the plugin loads an iFrame which is provided by bKash, customer will complete the payment by entering their bKash account credentials (Account Number, Verification Code, PIN).
-Tokenized Checkout: bKash's tokenized checkout provides the customers a more convenient way of payment. Using this product, the customers can create an agreement in merchant websites/apps that for further payment using bKash, they will only use bKash wallet PIN. In this case the merchant system needs to store these agreements against different user accounts. This provides a faster and convenient payment opportunity for both the merchant and the customer.
-bKash PGW plugin is available for Merchants in Bangladesh, to accepts payments from customer you need to be a bKash merchant first.
-
-
 ### Technical Requirements:
 * Wordpress (4.0 or above).
 * WooCommerce (2.0 or above).
@@ -128,12 +118,6 @@ and share it through a Microsoft docs file.
 
 ### Webhook configuration process:
 Share webhook URL to bKash team by collecting from WooCommerce settings for bKash payment gateway.
-
-### Authorisation (Capture/Void) process:
-To capture a payment collected from customer, merchant has to change order status from ON-HOLD to 'COMPLETED'.
-To void a payment initiate by merchant, merchant has to change order status from ON-HOLD to 'CANCELLED'.
-
-If merchant wants to handle Capture/Void scenario programmatically, use standard WooCommerce API/Hooks to change the status.
 
 ### Additional Features
 
